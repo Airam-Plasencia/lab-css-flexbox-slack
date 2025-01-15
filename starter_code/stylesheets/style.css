@@ -8,3 +8,214 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body {
+    width:100%;
+    margin:0 auto;
+    font-family:  "Helvetica" , sans-serif;
+}
+
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    background-color: #540B51;
+    padding: 16px;
+} 
+.nav-bar-ul {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-decoration: none;
+  }
+  .nav-bar-ul a{
+    text-decoration: none;
+    color: white;
+  }
+
+.slack-logo{
+    max-width: 50px;
+}
+
+.title {
+    color: white;
+    font-size: 40px;
+
+}
+
+.first-section {
+    background-color: #540B51;
+    font-family: Helvetica;
+
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.teams {
+    color: #540B51;
+    text-align: center;
+    font-size: 2em;
+}
+
+.teams-slack {
+    text-align: center;
+}
+.slack-users{
+    list-style: none;
+    font-weight: bold;
+    text-align: center;
+}
+.porcent{
+    color: #540B51;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.slack-app {
+    display: flex;
+    justify-content: flex-end;
+    height: 200px;
+}
+.digital {
+    text-align: center;
+    background-color: #540B51;
+    color: white;
+    height: 200px;
+}
+
+
+.menu button {
+    background-color: transparent;
+
+}
+
+.trusted-by-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 24px;
+    
+}
+
+.trusted-by-images img {
+    height: 50px;
+}
+
+.hero-section {
+    display: flex;
+}
+.footer-status{
+    list-style: none;
+    font-weight: bold;
+}
+.footer-status-logo{
+    display: flex;
+    
+}
+.logo {
+    list-style: none;
+    display: flex;
+    padding: 0 auto;
+    
+}
+.download {
+    color: #2E71A6;
+}
+@media (max-width: 768px) {
+    .first-section {
+        text-align: center;
+        max-width: 265px;
+        margin: 0 auto;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    .google-buttons {
+        margin-top: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        color: white;
+    }
+
+    .buttons>button {
+        width: 100px;
+        height: 46px;
+        border-radius: 4px;
+    }
+
+    .buttons>button>img {
+        width: 24px;
+        background-color: white;
+    }
+
+    .nav-bar-ul {
+        display: none;
+    }
+
+    .hero-product {
+        width: 100vw;
+        margin-top: 36px;
+    }
+
+    .trusted-by {
+        background-color: #F3EAE2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 6px;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .nav-bar-ul {
+        display: none;
+    }
+
+    
+
+    .first-section {
+        width: 400px;
+        padding: 36px 0;
+    }
+
+    .first-section {
+        text-align: left;
+        
+        
+        margin-left: 0px;
+        padding-left: 16px;
+    }
+
+    .hero-section {
+        align-items: center;
+        background-size: cover;
+        background-image: url("../images/background-singup.png");
+    }
+
+
+    .title {
+        font-size: 64px;
+    }
+
+} 
